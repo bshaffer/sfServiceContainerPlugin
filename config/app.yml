@@ -1,0 +1,7 @@
+# configure one or more services files to load from
+# default is config/services.yml
+all:
+  services:
+    set_symfony_config: true
+    config:   %sf_config_dir%/services.yml
+    enable_cache: true
